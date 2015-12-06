@@ -1,0 +1,171 @@
+Script started on Fri 01 Nov 2013 10:03:56 PM PDT
+]0;abaumgarner@aaron-linux: ~/Desktop/hw1abaumgarner@aaron-linux:~/Desktop/hw1$ make
+gcc cscd240hw1Tester.c cscd240hw1.c
+./a.out
+		Welcome to Hangman
+Player one enters their name (single name) and then player one enters a
+single word for the other player to guess. (There will be no spaces in the word)
+Player 2 then enters their name (single name). Player 2 has a maximum of 7 tries to guess the
+word. If player 2 guesses the word in 7 or less tries, a message of congratulations is displayed. If
+the word is not guessed after 7 tries, a losing message is displayed along with what the correct
+word was.
+
+The option to play the game again is then given (y/n)
+
+
+	Player One
+Please enter your name: Aaorn   ron
+	Welcome Aaron
+Please enter a single word to be guessed: toe
+	Player Two
+Please enter your name: Bob
+	Welcome Bob
+abcdefghijklmnopqrstuvwxyz
+---ÿ
+Enter a letter: a
+ bcdefghijklmnopqrstuvwxyz
+
+_________
+|/      |
+|
+|
+|
+|
+|
+|___
+Incorrect guess. You have 6 tries left.
+---ÿ
+Enter a letter: t
+ bcdefghijklmnopqrs uvwxyz
+
+t--ÿ
+Enter a letter: o
+ bcdefghijklmn pqrs uvwxyz
+
+to-ÿ
+Enter a letter: e
+ bcd fghijklmn pqrs uvwxyz
+
+toeÿ
+Would you like to play again? (y/n): y
+		Welcome to Hangman
+Player one enters their name (single name) and then player one enters a
+single word for the other player to guess. (There will be no spaces in the word)
+Player 2 then enters their name (single name). Player 2 has a maximum of 7 tries to guess the
+word. If player 2 guesses the word in 7 or less tries, a message of congratulations is displayed. If
+the word is not guessed after 7 tries, a losing message is displayed along with what the correct
+word was.
+
+The option to play the game again is then given (y/n)
+
+
+	Player One
+Please enter your name: Aaron
+	Welcome Aaron
+Please enter a single word to be guessed: Timber
+	Player Two
+Please enter your name: Bill
+	Welcome Bill
+abcdefghijklmnopqrstuvwxyz
+------
+Enter a letter: a
+ bcdefghijklmnopqrstuvwxyz
+
+_________
+|/      |
+|
+|
+|
+|
+|
+|___
+Incorrect guess. You have 6 tries left.
+------
+Enter a letter: h
+ bcdefg ijklmnopqrstuvwxyz
+
+__________
+|/       |
+|	(_)
+|
+|
+|
+|
+|___
+Incorrect guess. You have 5 tries left.
+------
+Enter a letter: i
+ bcdefg  jklmnopqrstuvwxyz
+
+-i----
+Enter a letter: k
+ bcdefg  j lmnopqrstuvwxyz
+
+__________
+|/       |
+|	(_)
+|	 |
+|	 |
+|
+|
+|___
+Incorrect guess. You have 4 tries left.
+-i----
+Enter a letter: z
+ bcdefg  j lmnopqrstuvwxy 
+
+__________
+|/       |
+|	(_)
+|      --|
+|	 |
+|
+|
+|___
+Incorrect guess. You have 3 tries left.
+-i----
+Enter a letter: l
+ bcdefg  j  mnopqrstuvwxy 
+
+__________
+|/       |
+|	(_)
+|      --|--
+|	 |
+|
+|
+|___
+Incorrect guess. You have 2 tries left.
+-i----
+Enter a letter: t w
+ bcdefg  j  mnopqrstuv xy 
+
+__________
+|/       |
+|	(_)
+|      --|--
+|	 |
+|       | 
+|
+|___
+Incorrect guess. You have 1 tries left.
+-i----
+Enter a letter: q
+ bcdefg  j  mnop rstuv xy 
+
+__________
+|/       |
+|	(_)
+|      --|--
+|	 |
+|       | |
+|
+|___
+Incorrect guess. You have 0 tries left.
+-i----
+Would you like to play again? (y/n): n
+Thank you for playing
+]0;abaumgarner@aaron-linux: ~/Desktop/hw1abaumgarner@aaron-linux:~/Desktop/hw1$ exit
+exit
+
+Script done on Fri 01 Nov 2013 10:05:18 PM PDT
